@@ -1,0 +1,44 @@
+# Dependency directories
+node_modules/
+packages/*/node_modules/
+
+# TypeScript compilation output
+*.js
+*.js.map
+*.d.ts
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# Compiled output
+dist/
+build/
+
+# Logs and binaries
+*.log
+*.tgz
+*.zip
+*.rar
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Yarn integrity file
+.yarn-integrity
+
+# Jest coverage
+coverage/
+
+# npm lockfile
+package-lock.json
+yarn.lock
+
+# TypeScript cache
+*.tsbuildinfo
